@@ -12,10 +12,10 @@ The dataset used in this paper is from [UIUC Polyvore](https://github.com/mvasil
 
 First use pretrained model to extract features from item images, item text, outfit text. You can download extracted features or extract by yourself. If download extracted features, put these file into project directory:
 
-- [imgs_feats_fashionClip.pkl](): item image features
-- [encoded_itemTitleDescription_distiluse-base-multilingual-cased-v2.pkl](): item text features
-- [encoded_category_distiluse-base-multilingual-cased-v2.pkl](): item category features
-- [encoded_outfitUrlTitle_en_fashionClip.pkl](): outfit text features
+- [imgs_feats_fashionClip.pkl](https://drive.google.com/drive/folders/1VwbsS_fTduYENW30vdFGPwoie9Faxlzn?usp=sharing): item image features
+- [encoded_itemTitleDescription_distiluse-base-multilingual-cased-v2.pkl](https://drive.google.com/drive/folders/1VwbsS_fTduYENW30vdFGPwoie9Faxlzn?usp=sharing): item text features
+- [encoded_category_distiluse-base-multilingual-cased-v2.pkl](https://drive.google.com/drive/folders/1VwbsS_fTduYENW30vdFGPwoie9Faxlzn?usp=sharing): item category features
+- [encoded_outfitUrlTitle_en_fashionClip.pkl](https://drive.google.com/drive/folders/1VwbsS_fTduYENW30vdFGPwoie9Faxlzn?usp=sharing): outfit text features
 
 If you extract features by yourself, The following scripts may help you:
 
@@ -57,3 +57,5 @@ To evaluate CIR task, use the following script:
 ```bash
 python evaluate_cir.py
 ```
+
+pretrained model weights trained on UIUC Polyvore can be found at [here](https://drive.google.com/drive/folders/1A5t3NTArQjGpJLmSPBghONaPJ9rH8AbT?usp=sharing).
